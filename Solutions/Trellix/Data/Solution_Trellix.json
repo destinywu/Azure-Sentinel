@@ -7,12 +7,12 @@
     "Data Connectors/Trellix_CCF/Trellix_DataConnectorDefinition.json"
   ],
   "Parsers": [
-    "Parsers/TrellixEvents.yaml"
+    "Parsers/TrellixEvents.json"
   ],
   "Playbooks": [],
   "Metadata": "SolutionMetadata.json",
   "BasePath": "C:\\GitHub\\Azure-Sentinel\\Solutions\\Trellix",
-  "Version": "3.0.0",
+  "Version": "0.1.0",
   "TemplateSpec": true,
   "Is1PConnector": false
 }
