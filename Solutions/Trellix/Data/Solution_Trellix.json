@@ -7,7 +7,7 @@
     "Data Connectors/Trellix_CCF/Trellix_DataConnectorDefinition.json"
   ],
   "Parsers": [
-    "Parsers/TrellixEvents.json"
+    "Parsers/TrellixEvents.yaml"
   ],
   "Playbooks": [],
   "Metadata": "SolutionMetadata.json",

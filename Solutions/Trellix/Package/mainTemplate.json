@@ -48,7 +48,6 @@
         "_solutionId": "azuresentinel.azure-sentinel-solution-azuresentinel.azure-sentinel-TrellixConnector-preview",
         "dataConnectorVersionConnectorDefinition": "0.1.2602251137",
         "dataConnectorVersionConnections": "0.1.2602251137",
-        "_solutionTier": "Community",
         "_dataConnectorContentIdConnectorDefinition": "TrellixConnectorTemplateConnectorDefinition",
         "dataConnectorTemplateNameConnectorDefinition": "[concat(parameters('workspace'),'-dc-',uniquestring(variables('_dataConnectorContentIdConnectorDefinition')))]",
         "_dataConnectorContentIdConnections": "TrellixConnectorTemplateConnections",
@@ -97,7 +96,7 @@
                                 },
                                 "support": {
                                     "name": "[variables('_solutionAuthor')]",
-                                    "tier": "[variables('_solutionTier')]"
+                                    "tier": "Community"
                                 },
                                 "dependencies": {
                                     "criteria": [
@@ -835,7 +834,7 @@
                 },
                 "support": {
                     "name": "[variables('_solutionAuthor')]",
-                    "tier": "[variables('_solutionTier')]"
+                    "tier": "Community"
                 },
                 "dependencies": {
                     "criteria": [
@@ -940,7 +939,7 @@
                                 },
                                 "support": {
                                     "name": "[variables('_solutionAuthor')]",
-                                    "tier": "[variables('_solutionTier')]"
+                                    "tier": "Community"
                                 }
                             }
                         },
